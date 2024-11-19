@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 import streamlit as st
 import boto3
 from face_recognition import preprocessing
-
+st.write("hi")
 # Import or define the Whitening class here (if it’s part of the preprocessing pipeline)
 class Whitening:
     def __init__(self, mean=0, std=1):
